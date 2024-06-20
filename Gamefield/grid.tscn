@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://down1mlr7tbjs"]
+
+[sub_resource type="TileSet" id="TileSet_41igq"]
+tile_shape = 3
+
+[node name="GridContainer" type="GridContainer"]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_41igq")
+format = 2
